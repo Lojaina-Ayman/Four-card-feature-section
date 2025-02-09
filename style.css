@@ -107,7 +107,7 @@ img {
 }
 @media (max-width: 768px) {
   .body {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 50px;
   }
   .all{
@@ -146,10 +146,9 @@ img {
   .all {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    /* margin-left: 45px; */
   }
   .body {
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 50px;
   }
   
