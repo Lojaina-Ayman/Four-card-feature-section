@@ -15,7 +15,7 @@
 }
 .header {
   text-align: center;
-  width :70%;
+  width: 70%;
   margin-right: 0px;
 }
 h2 {
@@ -32,13 +32,13 @@ h3 {
   font-size: xx-large;
   color: hsl(234, 12%, 34%);
 }
-.ai{
+.ai {
   margin-top: 15px;
   margin-bottom: 30px;
   font-family: "Poppins", serif;
   font-weight: 200;
   font-style: normal;
-  font-size:large;
+  font-size: large;
   color: hsl(229, 6%, 66%);
 }
 .all {
@@ -59,7 +59,7 @@ h3 {
   margin: 10px;
   /* transition: all 0.5s ease-in; */
 }
-.title{
+.title {
   margin-bottom: 10px;
   font-family: "Poppins", serif;
   font-weight: 600;
@@ -107,20 +107,20 @@ img {
 }
 @media (max-width: 768px) {
   .body {
-    /* margin-left: 20px; */
     margin-top: 50px;
   }
-  .all{
+  .all {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
   }
-  h2 , h3{
+  h2,
+  h3 {
     font-size: x-large;
   }
-  .header{
+  .header {
     width: 90%;
   }
-  .ai{
+  .ai {
     margin-bottom: -20px;
   }
   .beh_super {
@@ -140,7 +140,6 @@ img {
     grid-column: 1/2;
     grid-row: 4/5;
   }
-  
 }
 @media (max-width: 375px) {
   .all {
@@ -148,19 +147,18 @@ img {
     grid-template-rows: repeat(5, 1fr);
   }
   .body {
-    /* margin-left: 15px; */
     margin-top: 50px;
   }
-  
-  h2 , h3{
+
+  h2,
+  h3 {
     font-size: x-large;
   }
-  .header{
+  .header {
     width: 90%;
   }
-  .ai{
+  .ai {
     margin-bottom: -70px;
-
   }
   .beh_super {
     grid-column: 1/2;
